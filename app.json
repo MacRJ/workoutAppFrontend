@@ -1,0 +1,12 @@
+{
+  "name": "physical-fitness-app-frontend",
+  "displayName": "physical-fitness-app-frontend",
+  "expo": {
+    "name": "physical-fitness-app-frontend",
+    "slug": "physical-fitness-app-frontend",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
