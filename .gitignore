@@ -65,4 +65,4 @@ buck-out/
 web-build/
 
 #data
-data/
+data/allWorkouts.json
