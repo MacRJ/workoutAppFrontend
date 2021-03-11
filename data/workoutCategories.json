@@ -1,45 +1,217 @@
 [
-   {"name": "Chest", "favorite": true},
-   {"name": "Forearms", "favorite": false},
-   {"name": "Lats", "favorite": false},
-   {"name": "Middle Back", "favorite": true},
-   {"name": "Lower Back", "favorite": true},
-   {"name": "Neck", "favorite": false},
-   {"name": "Quadriceps", "favorite": true},
-   {"name": "Hamstrings", "favorite": true},
-   {"name": "Calves", "favorite": true},
-   {"name": "Triceps", "favorite": true},
-   {"name": "Traps", "favorite": false},
-   {"name": "Shoulders", "favorite": true},
-   {"name": "Abdominals", "favorite": true},
-   {"name": "Glutes", "favorite": true},
-   {"name": "Biceps", "favorite": true},
-   {"name": "Adductors", "favorite": false},
-   {"name": "Abductors", "favorite": false},
-   {"name": "Cardio", "favorite": false},
-   {"name": "Olympic Weightlifting", "favorite": false},
-   {"name": "Plyometrics", "favorite": false},
-   {"name": "Powerlifting", "favorite": false},
-   {"name": "Strength", "favorite": false},
-   {"name": "Stretching", "favorite": false},
-   {"name": "Strongman", "favorite": false},
-   {"name": "Bands", "favorite": false},
-   {"name": "Foam Roll", "favorite": false},
-   {"name": "Barbell", "favorite": false},
-   {"name": "Kettlebells", "favorite": false},
-   {"name": "Body Only", "favorite": false},
-   {"name": "Machine", "favorite": false},
-   {"name": "Cable", "favorite": false},
-   {"name": "Medicine Ball", "favorite": false},
-   {"name": "Dumbbell", "favorite": false},
-   {"name": "None", "favorite": false},
-   {"name": "E-Z Curl Bar", "favorite": false},
-   {"name": "Other", "favorite": false},
-   {"name": "Exercise Ball", "favorite": false},
-   {"name": "Compound", "favorite": false},
-   {"name": "Isolation", "favorite": false},
-   {"name": "N/A", "favorite": false},
-   {"name": "Beginner", "favorite": false},
-   {"name": "Intermediate", "favorite": false},
-   {"name": "Expert", "favorite": false}
+    {
+        "id": 1,
+        "name": "Chest",
+        "favorite": true
+    },
+    {
+        "id": 2,
+        "name": "Forearms",
+        "favorite": false
+    },
+    {
+        "id": 3,
+        "name": "Lats",
+        "favorite": false
+    },
+    {
+        "id": 4,
+        "name": "Middle Back",
+        "favorite": true
+    },
+    {
+        "id": 5,
+        "name": "Lower Back",
+        "favorite": true
+    },
+    {
+        "id": 6,
+        "name": "Neck",
+        "favorite": false
+    },
+    {
+        "id": 7,
+        "name": "Quadriceps",
+        "favorite": true
+    },
+    {
+        "id": 8,
+        "name": "Hamstrings",
+        "favorite": true
+    },
+    {
+        "id": 9,
+        "name": "Calves",
+        "favorite": true
+    },
+    {
+        "id": 10,
+        "name": "Triceps",
+        "favorite": true
+    },
+    {
+        "id": 11,
+        "name": "Traps",
+        "favorite": false
+    },
+    {
+        "id": 12,
+        "name": "Shoulders",
+        "favorite": true
+    },
+    {
+        "id": 13,
+        "name": "Abdominals",
+        "favorite": true
+    },
+    {
+        "id": 14,
+        "name": "Glutes",
+        "favorite": true
+    },
+    {
+        "id": 15,
+        "name": "Biceps",
+        "favorite": true
+    },
+    {
+        "id": 16,
+        "name": "Adductors",
+        "favorite": false
+    },
+    {
+        "id": 17,
+        "name": "Abductors",
+        "favorite": false
+    },
+    {
+        "id": 18,
+        "name": "Cardio",
+        "favorite": false
+    },
+    {
+        "id": 19,
+        "name": "Olympic Weightlifting",
+        "favorite": false
+    },
+    {
+        "id": 20,
+        "name": "Plyometrics",
+        "favorite": false
+    },
+    {
+        "id": 21,
+        "name": "Powerlifting",
+        "favorite": false
+    },
+    {
+        "id": 22,
+        "name": "Strength",
+        "favorite": false
+    },
+    {
+        "id": 23,
+        "name": "Stretching",
+        "favorite": false
+    },
+    {
+        "id": 24,
+        "name": "Strongman",
+        "favorite": false
+    },
+    {
+        "id": 25,
+        "name": "Bands",
+        "favorite": false
+    },
+    {
+        "id": 26,
+        "name": "Foam Roll",
+        "favorite": false
+    },
+    {
+        "id": 27,
+        "name": "Barbell",
+        "favorite": false
+    },
+    {
+        "id": 28,
+        "name": "Kettlebells",
+        "favorite": false
+    },
+    {
+        "id": 29,
+        "name": "Body Only",
+        "favorite": false
+    },
+    {
+        "id": 30,
+        "name": "Machine",
+        "favorite": false
+    },
+    {
+        "id": 31,
+        "name": "Cable",
+        "favorite": false
+    },
+    {
+        "id": 32,
+        "name": "Medicine Ball",
+        "favorite": false
+    },
+    {
+        "id": 33,
+        "name": "Dumbbell",
+        "favorite": false
+    },
+    {
+        "id": 34,
+        "name": "None",
+        "favorite": false
+    },
+    {
+        "id": 35,
+        "name": "E-Z Curl Bar",
+        "favorite": false
+    },
+    {
+        "id": 36,
+        "name": "Other",
+        "favorite": false
+    },
+    {
+        "id": 37,
+        "name": "Exercise Ball",
+        "favorite": false
+    },
+    {
+        "id": 38,
+        "name": "Compound",
+        "favorite": false
+    },
+    {
+        "id": 39,
+        "name": "Isolation",
+        "favorite": false
+    },
+    {
+        "id": 40,
+        "name": "N/A",
+        "favorite": false
+    },
+    {
+        "id": 41,
+        "name": "Beginner",
+        "favorite": false
+    },
+    {
+        "id": 42,
+        "name": "Intermediate",
+        "favorite": false
+    },
+    {
+        "id": 43,
+        "name": "Expert",
+        "favorite": false
+    }
 ]
